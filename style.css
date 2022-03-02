@@ -26,8 +26,8 @@ table{
 }
 
 #timetable{
-    width:700px;
-    height:850px;
+    width:800px;
+    height:950px;
     border-radius:30px;
     background-color:#202020;
 }
@@ -55,7 +55,9 @@ table{
 #num{
     color:#bdbdbd;
     font-family: 'CookieRunOTF-Bold';
-    font-size:22px
+    margin-top: -1px;
+    padding-top: 15px;
+    font-size:25px
 }
 
 #time{
@@ -68,14 +70,14 @@ table{
 #name{
     color:#dddddd;
     font-family: 'CookieRunOTF-Bold';
-    font-size:22px
+    font-size:25px
 }
 
 #teacher{
     margin-top: -20px;
     color:#bdbdbd;
     font-family: 'CookieRunOTF-Bold';
-    font-size:12px
+    font-size:15px
 }
 
 #desc{
