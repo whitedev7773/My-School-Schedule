@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'CookieRunOTF-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color:#151515;
+}
+
+table{
+    table-layout: fixed;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+#timetable{
+    width:700px;
+    height:850px;
+    border-radius:30px;
+    background-color:#202020;
+}
+
+#firstline{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:30px;
+    background-color:#404040;
+    color:#bdbdbd;
+    font-family: 'CookieRunOTF-Bold';
+    font-size:20px
+}
+
+#period{
+    border-radius:25px;
+    background-color:#404040;
+}
+
+#class{
+    border-radius:25px;
+    background-color:#292929;
+}
+
+#num{
+    color:#bdbdbd;
+    font-family: 'CookieRunOTF-Bold';
+    font-size:22px
+}
+
+#time{
+    color:#bdbdbd;
+    font-family: 'CookieRun-Regular';
+    margin-top: -20px;
+    font-size:12px
+}
+
+#name{
+    color:#dddddd;
+    font-family: 'CookieRunOTF-Bold';
+    font-size:22px
+}
+
+#teacher{
+    margin-top: -20px;
+    color:#bdbdbd;
+    font-family: 'CookieRunOTF-Bold';
+    font-size:12px
+}
+
+#desc{
+    color:#bdbdbd;
+    font-family: 'CookieRunOTF-Bold';
+    font-size:25px
+}
+
+#descname{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+.none{
+    opacity: 0;
+}
+
+.textaligncenter{
+    text-align:center;
+}
